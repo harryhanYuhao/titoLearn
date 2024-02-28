@@ -1,7 +1,7 @@
 %global srcname copr-tito-quickdoc
 
 Name: hellocopr
-Version: 1.1.2
+Version: 1.0.0
 Release: 1%{?dist}
 License: GPLv3
 Summary: A trivial python 3 program for demonstrating RPM packaging
@@ -47,6 +47,9 @@ packaging using tito and Fedora's Copr user repository.
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
+* Wed Feb 28 2024 Harry Yuhao Han <s2162783@ed.ac.uk> 1.0.0-1
+- new package built with tito
+
 * Wed Feb 28 2024 Harry Yuhao Han <s2162783@ed.ac.uk> 1.1.2-1
 - Try
 * Wed Feb 28 2024 Harry Yuhao Han <s2162783@ed.ac.uk>
